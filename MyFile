@@ -1,0 +1,15 @@
+import math
+
+a = 10
+b = 4
+x = 5
+
+z = (math.sqrt(x ** 2) + b) / (math.sqrt(x ** 2) + a * x)
+
+
+print("The nubers is: ")
+print(a, b, x)
+print()
+
+print("Final result is: ")
+print(z)
